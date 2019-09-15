@@ -3,7 +3,7 @@
 Problem:
 We want to save html content of entered url. E.g. Google.com then html content of this page should be saved. Solution should be scalable. Should handle huge traffic.
 
-This solution contains below projects / components:
+Solution projects / components:
 1. Api: It will receive request from consumer. 
 2. Sqs: Api will send JSON seriallized message to AWS sqs. 
 3. Lambda (.net core): Lambda function will be executed as soon as new message arrives in sqs.
@@ -18,15 +18,15 @@ Notes:
 Need to create AWS account. Proper IAM user along with enough role to execute SQS, Lambda and S3 service.
 
 AWS services:
-Lambda function
-S3 bucket
-SQS
-Cloudwatch
+Lambda function,
+S3 bucket,
+SQS,
+Cloudwatch,
 IAM roles
 
 
 Nuget packages:
-AWSSDK.SQS
-Newtonsoft.Json
-AWSSDK.S3
+AWSSDK.SQS,
+Newtonsoft.Json,
+AWSSDK.S3,
 Microsoft.AspNet.WebApi.Client
