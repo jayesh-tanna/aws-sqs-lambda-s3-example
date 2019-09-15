@@ -9,7 +9,7 @@ Solution projects / components:
 3. Lambda (.net core): Lambda function will be executed as soon as new message arrives in sqs.
 4. Tester: It will make call to Api.
 
-Api will send message to sqs. Lambda wil be triggered as soon as message arrives in sqs. Lambda function will deseriallize message and download the content from the entered url. Same lambda function will upload the upload the content to S3 bucket. Logs are written in CloudWatch from lambda function. 
+Api will send message to sqs. Lambda wil be triggered as soon as message arrives in sqs. Lambda function will deseriallize message and download the content from the entered url. Same lambda function will upload the content to S3 bucket. Logs are written in CloudWatch from lambda function. 
 
 Prerequisite: 
 VS 2017/19, AWS toolkit, AWS account
